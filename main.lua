@@ -68,8 +68,8 @@ end
     Renders the current FPS.
 ]]
 function displayFPS()
-    -- simple FPS display across all states
-    love.graphics.setFont(gFonts['small'])
-    love.graphics.setColor(0, 255, 0, 255)
-    love.graphics.print('FPS: ' .. tostring(love.timer.getFPS()), 5, 5)
+  -- simple FPS display across all states
+  love.graphics.setFont(gFonts['small'])
+  love.graphics.setColor(0, 255, 0, 255)
+  love.graphics.print('FPS: ' .. tostring(love.timer.getFPS()), 5, 5)
 end
