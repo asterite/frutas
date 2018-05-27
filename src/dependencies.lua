@@ -14,3 +14,6 @@ Class = require 'lib/class'
 
 -- a few global constants, centralized
 require 'src/constants'
+
+-- classes
+require 'entities/hand'
